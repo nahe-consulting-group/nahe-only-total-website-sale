@@ -1,0 +1,8 @@
+<odoo>
+      <template id="nahe_only_total_website_sale.website_sale_total" inherit_id="website_sale.total">
+        <tr id="order_total_untaxed" position="replace">
+        </tr>
+        <tr id="order_total_taxes" position="replace">
+        </tr>
+      </template>
+    </odoo>
